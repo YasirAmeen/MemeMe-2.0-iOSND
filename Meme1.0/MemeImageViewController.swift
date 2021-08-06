@@ -13,6 +13,7 @@ class MemeImageViewController : UIViewController {
         super.viewDidLoad()
         
         imagePicker.image = selectedMeme.memedImage
+        imagePicker.contentMode = .scaleAspectFill
     }
 
 }
